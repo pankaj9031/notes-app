@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-bottom: 20px;
+    padding-right: 24px;
+}
+
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.container h1 img{
+    width: 60px;
+    margin-right: 10px;
+}
+
+.container button img{
+    width: 25px;
+    margin-right: 22px;
+}
+
+.container button{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #9418fd, #571094);
+    color: #fff;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px 25px;
+    padding-left: 16px;
+    margin: 30px 0 20px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #fff;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.container button:hover{
+    box-shadow: inset -122px 0 0 0.0000001px #fff,0 0 15px #9218fd97;
+    color: #571094;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 24px 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+@media(max-width: 550px){
+    .container{
+        padding-left: 24px;
+    }
+}
